@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "module": "amd",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "noImplicitAny": true,
+    "outFile": "build/typescript.js",
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es5",
+    "allowUnreachableCode": false,
+    "noImplicitReturns": true,
+    "baseUrl": "./",
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "lib": [ "dom", "es5", "es2015.promise" ]
+  },
+  "compileOnSave": false,
+  "include": [
+    "**/*.ts",
+    "**/*.d.ts"
+  ],
+  "exclude": [ "node_modules" ]
+}

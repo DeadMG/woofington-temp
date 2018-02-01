@@ -1,0 +1,32 @@
+{
+  "name": "woofington-temp",
+  "version": "1.0.0",
+  "description": "This space intentionally left blank.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeadMG/woofington-temp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeadMG/woofington-temp/issues"
+  },
+  "homepage": "https://github.com/DeadMG/woofington-temp#readme",
+  "dependencies": {
+    "fs-extra": "5.0.0",
+    "gulp": "3.9.1",
+    "gulp-html-replace": "1.6.2",
+    "gulp-rename": "1.2.2",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "react-dom-factories": "1.0.2",
+    "react-redux": "5.0.6",
+    "redux": "3.7.2",
+    "typescript": "2.7.1",
+    "underscore": "1.8.3"
+  }
+}
