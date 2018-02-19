@@ -1,7 +1,3 @@
-interface Window {
-	initialise: { ():void };
-}
-
-window.initialise = () => {
+export function hello() {
 	alert("hello");
-};
+}

@@ -7,7 +7,6 @@
     "noImplicitAny": true,
     "outFile": "build/typescript.js",
     "removeComments": false,
-    "sourceMap": true,
     "target": "es5",
     "allowUnreachableCode": false,
     "noImplicitReturns": true,
@@ -15,6 +14,8 @@
     "noImplicitThis": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "inlineSourceMap": true,
+    "rootDir": "./",
     "lib": [ "dom", "es5", "es2015.promise" ]
   },
   "compileOnSave": false,
