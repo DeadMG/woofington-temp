@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/DeadMG/woofington-temp#readme",
   "dependencies": {
+    "@types/react": "^16.0.38",
+    "@types/react-dom": "^16.0.4",
+    "@types/react-dom-factories": "^1.0.1",
     "fs-extra": "5.0.0",
     "gulp": "3.9.1",
     "gulp-html-replace": "1.6.2",

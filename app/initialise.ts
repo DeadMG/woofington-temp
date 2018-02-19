@@ -1,5 +1,5 @@
-import { hello } from "app/hello";
+import { Hello } from "app/hello";
 
 export function initialise() {
-	hello();
+	ReactDOM.render(Hello(), document.getElementById("app"));
 }
