@@ -1,2 +1,2 @@
 export type Action = 
-    { type: "IncrementClicked" };
+    { type: "Start" };

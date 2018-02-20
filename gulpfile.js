@@ -20,7 +20,6 @@ gulp.task('default', ['build-typescript'], function () {
         "./node_modules/react-dom/umd/react-dom-server.browser.development.js",
         "./node_modules/react-dom/umd/react-dom-test-utils.development.js",
         "./node_modules/react-dom-factories/index.js",
-        "./node_modules/react-transition-group/dist/react-transition-group.js",
         "./node_modules/redux/dist/redux.js",
         "./node_modules/react-redux/dist/react-redux.js",
 		"dependencies/require.js",
